@@ -1,2 +1,1 @@
-# edgeAidetection
-    • Built a real-time object-detection application on Raspberry Pi 4B using Python, OpenCV, LiteRT Interpreter and EfficientDet Lite0 with a USB camera.     • Implemented image preprocessing, CPU inference, confidence filtering, COCO label mapping, bounding-box overlays and live FPS display.
+Built a live object-detection demo using a Raspberry Pi 4B and USB camera. Developed a Python application with OpenCV and LiteRT Interpreter to run the pretrained EfficientDet Lite0 model on the CPU. The application processes camera frames and displays detected objects with COCO labels, confidence scores, bounding boxes, and FPS. Observed performance was approximately 8.5 FPS on this setup.
